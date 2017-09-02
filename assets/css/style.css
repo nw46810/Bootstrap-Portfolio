@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+*{
+	/*outline: 1px dotted black;*/
+}
+
+.outerContainer{
+	min-height:100vh;
+	position:relative;
+	padding-bottom:120px;
+	margin: 0 auto;
+	width:100%;
+}
+
+.brandtag{
+	font-size:30px;
+	/*font-weight:bold;*/
+	/*background-color:#4aaaa5;*/
+	color:#ffffff;
+}
+
+body{
+	background-image: url("../images/witewall_3.png");
+	background-repeat: repeat;
+
+}
+
+.section{
+	border: 1px solid #cccccc;
+	color:#777777;
+	background:#ffffff;
+}
+.sectionheader{
+	/*font-family: "Georgia", Times, "Times New Roman", serif;*/
+	color:#2b3e50;
+	font-size:26px;
+}
+
+.pictures{
+	width:210px;
+}
+
+article h1{
+	position: absolute;
+	bottom: 15px;
+	margin: 0;
+	background-color: #2b3e50;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+}
+article img{
+
+	width: 100%;
+}
+.portfolioArticle{
+
+	position:relative;
+	margin: 12px 10px 15px 8px;
+
+}
+
+.sidebar{
+	border: 1px solid #cccccc;
+	background:#ffffff;
+}
+
+.socialLink{
+	width: 62px;
+}
+
+
+
+footer{
+	position:absolute;
+	bottom:0;
+	color:#ffffff;
+	width:100%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height:80px;
+	padding:30px;
+	font-size:12px;
+	text-align: center;
+	border-top: 8px solid #2b3e50;
+	background:#666666;
+
+}
